@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="phone.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/smiley.png" />
+  </head>
+  <body>
+    <!-- The Header -->
+    <header>
+      <div class="logo">
+        <h2>V.</h2>
+      </div>
+      <div class="hamburger" onclick="showBar()">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="45px"
+          viewBox="0 -960 960 960"
+          width="24px"
+          fill="var(--font-color)"
+        >
+          <path
+            d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+          />
+        </svg>
+      </div>
+      <div class="nav-icon-container">
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <img
+          id="icon"
+          style="width: 25px; cursor: pointer"
+          src="assets/sun-icon.png"
+        />
+      </div>
+    </header>
+    <!-- Hero Section start here -->
+    <section class="hero-section" id="home">
+      <div class="hero-container">
+        <div class="hero-image-div">
+          <img src="assets/h_section_image_bg.png" />
+        </div>
+        <div class="hero-content">
+          <p>Hey there</p>
+          <h1>I am Vishwa</h1>
+          <h2>I am <span class="auto-type"></span></h2>
+          <div class="hero-btn">
+            <a href="#contact">Let's Talk <i class="bx bx-chat"></i></a>
+          </div>
+          <div class="social-icons">
+            <a href="https://github.com/Vishwareddy5" target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/vishwa-reddy-b9ab81255/"
+              target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <h1>About Me</h1>
+      <div class="about-container">
+        <div class="about-image-box">
+          <img src="assets/aboutSection_image.jpg" />
+        </div>
+        <div class="about-content">
+          <p class="about-p1">
+            Skilled in <br /><span class="about-span"
+              >Front-End developement</span
+            ><br />I create responsive, scalable web applications. Focused on
+            delivering seamless user experiences and
+            <span class="about-span">Efficient backend systems</span>
+          </p>
+          <p class="about-p2">
+            -Lets turn ideas into high performance solutions
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- My Project Section -->
+    <section class="project-section" id="project">
+      <h1>My Project</h1>
+      <div class="project-outer-container">
+        <div class="project-inner-container-1">
+          <div class="project-grad-line-1"></div>
+          <div class="project-content-container-1">
+            <div class="project-image1-box">
+              <img src="assets/p-sec-img1_upscayl_4x_realesrgan-x4plus.png" />
+            </div>
+            <div class="project-content-1">
+              <div class="project-responsive-line"></div>
+              <p>
+                I developed a fully responsive clone of
+                <span class="project-span">Apple</span> webiste<br />
+                using HTML and CSS
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="project-inner-container-1 project-inner-container-2">
+          <div class="project-grad-line-2"></div>
+          <div class="project-content-container-1 flex-direction-reverse">
+            <div class="project-content-1">
+              <div class="project-responsive-line"></div>
+              <p>
+                The site adapts seamplessly to different screen sizes, ensuring
+                smooth navigation &amp; consistent design.
+              </p>
+            </div>
+            <div class="project-image1-box">
+              <img src="assets/p-sec-img2_upscayl_4x_realesrgan-x4plus.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-btn-box">
+        <a
+          href="https://vishwareddy5.github.io/Project_Apple/"
+          target="_blank"
+          class="project-btn"
+          >View Project</a
+        >
+      </div>
+    </section>
+    <!-- My Skills Section -->
+    <section class="skills-section" id="skills">
+      <h1>Skills</h1>
+      <div class="skills-card-container">
+        <div class="skill-card">
+          <h3>Front-End Development</h3>
+          <div class="skill-card-list">
+            <ul>
+              <li>
+                <i class="bx bxl-html5"></i>HTML
+                <span class="skill-list-span">(experienced)</span>
+              </li>
+              <li>
+                <i class="bx bxl-css3"></i>CSS
+                <span class="skill-list-span">(experienced)</span>
+              </li>
+              <li>
+                <i class="bx bxl-javascript"></i> Java Script
+                <span class="skill-list-span">(intermediate)</span>
+              </li>
+              <li>
+                <i class="bx bxl-bootstrap"></i> Bootstrap
+                <span class="skill-list-span">(intermediate)</span>
+              </li>
+              <li>
+                <i class="bx bxl-tailwind-css"></i>Tailwind CSS
+                <span class="skill-list-span">(basic)</span>
+              </li>
+              <li>
+                <i class="bx bxl-react"></i>React JS
+                <span class="skill-list-span">(basic)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>UI/UX Designer</h3>
+          <div class="skill-card-list">
+            <ul>
+              <li>
+                <i class="bx bxl-adobe"></i>Adobe XD
+                <span class="skill-list-span">(basic)</span>
+              </li>
+              <li>
+                <i class="bx bxl-figma"></i>Figma
+                <span class="skill-list-span">(intermediate)</span>
+              </li>
+              <li class="no-icon">
+                <i class="bx bxl-figma"></i>-Basic Design principles
+              </li>
+              <li class="no-icon">
+                <i class="bx bxl-figma"></i>-Design prototyping
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section" id="contact">
+      <h1>Let's Talk</h1>
+      <div class="contact-container">
+        <form
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          class="contact-left"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="fcb4dffc-497f-4c95-99bc-62da2d820ab9"
+          />
+          <input
+            type="text"
+            name="name"
+            placeholder="Your name"
+            class="con-input"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your email"
+            class="con-input"
+            required
+          />
+          <textarea
+            id="textarea"
+            name="message"
+            placeholder="Your message"
+            class="con-input"
+            required
+          ></textarea>
+          <button class="submit-btn" type="submit">
+            Submit <i class="bx bx-chevrons-right"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright act &copy; 2024.All right reserved</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
